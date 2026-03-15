@@ -1,0 +1,11 @@
+[default]
+address = "0.0.0.0"
+limits = { form = "64 kB", json = "1 MiB" }
+port = 8002
+
+[global]
+log = "critical" 
+
+[default.shutdown]
+ctrlc = false
+signals = []
